@@ -42,3 +42,10 @@ IGNORE 1 LINES
 > Affected rows: 399
 > Time: 1.222s
 ```
+
+## import command
+
+```
+cd /root/mariadb-columnstore-samples/
+cpimport -m 1 -s ',' -E '"' bts flights -l schema/flights.csv
+```
