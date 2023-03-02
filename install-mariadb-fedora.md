@@ -24,10 +24,10 @@ mysql_secure_installation
 ## grant user
 
 ```
-CREATE USER 'admininno'@'%' IDENTIFIED BY 'Innovisor#123';
-GRANT ALL PRIVILEGES ON *.* TO  'admininno'@'%' IDENTIFIED BY 'Innovisor#123';
+CREATE USER 'sam'@'%' IDENTIFIED BY 'xxxxx';
+GRANT ALL PRIVILEGES ON *.* TO  'sam'@'%' IDENTIFIED BY 'xxxxx';
 
-REVOKE ALL PRIVILEGES ON *.*  FROM  'admininno'@'%';
+REVOKE ALL PRIVILEGES ON *.*  FROM  'sam'@'%';
 FLUSH PRIVILEGES;
 ```
 
